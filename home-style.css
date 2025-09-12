@@ -92,7 +92,7 @@ h2 {
     text-align: center;
     padding: 8px 24px;
     border-radius: 10px;
-    border: 2px inset rgba(156, 156, 156, 0.664);
+    border: 2px outset rgba(156, 156, 156, 0.664);
  }
 
  .button1:hover {
@@ -142,15 +142,17 @@ h2 {
  }
 
  .blogholder {
-    width: 350px;
-    height: 350px;
-    border-radius: 24px;
+    width: 550px;
+    height: 450px;
+    border-radius: 48px;
     flex-shrink: 0;
+    background-size: cover;
  }
 
  .blogholder-section {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     gap: 48px;
     text-align: center;
  }
@@ -165,5 +167,20 @@ h2 {
  }
 
  .blog {
-    margin-top: 96px;
+    margin: 96px 0;
+    
+ }
+
+ .blog1,
+ .blog2,
+ .blog3 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+    font-size: 18px;
+ }
+
+.blog3 .blogholder {
+    background-position: center;
  }
