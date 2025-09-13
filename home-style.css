@@ -19,16 +19,12 @@ body {
     color: white;
     font-size: 24px;
     align-items: baseline;
-    padding-left: 150px;
-    padding-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 150px;
     flex: 0 1 auto;
 }
 
 .logotip {
     font-family: 'Bodoni Moda', serif;
-    font-size: 48px;
     font-style: italic;
     font-weight: bold;
 }
@@ -60,13 +56,21 @@ a {
 }
 
 h1 {
+    font-size: 56px;
+}
+
+h2 {
     font-size: 48px;
     font-weight: 300;
     font-style: italic;
 }
 
-h2 {
+h3 {
     font-size: 32px;
+}
+
+p {
+    font-size: 18px;
 }
 
 .welcome-header {
@@ -184,3 +188,40 @@ h2 {
 .blog3 .blogholder {
     background-position: center;
  }
+
+ .email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    background-color: #000000;
+    color: white;
+    padding: 48px;
+ }
+
+.email-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+ input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 14px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #e74444d3;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  width: 200px;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
