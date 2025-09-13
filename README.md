@@ -21,7 +21,6 @@ What I learned:
 - How to organize HTML and CSS into (clean) structure,
 - The importance of planning and clean code
 
-About the project:
 I am quite happy with how it turned out.
 This project showed me how much I still do not know - which is a
 great thing. Now I have solid starting point for future learning and better project down the road.
@@ -29,7 +28,6 @@ great thing. Now I have solid starting point for future learning and better proj
 Big thanks to The Odin Project community for the awesome learning
 material and support. JavaScript here we go.
 
-Image sources:
 All images were sourced from Unsplash (https://unsplash.com) and Pexels (https://pexels.com):
 - https://unsplash.com/photos/red-car-on-road-during-daytime-Z7PzQXvFjVc
 - https://unsplash.com/photos/a-red-sports-car-driving-on-a-road-with-mountains-in-the-background-9HcobLQ4W2M
